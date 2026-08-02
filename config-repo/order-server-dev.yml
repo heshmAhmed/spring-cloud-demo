@@ -1,0 +1,6 @@
+message: Hello from DEV
+database:
+  url: jdbc:postgresql://localhost:5432/orders_dev
+logging:
+  level:
+    root: DEBUG

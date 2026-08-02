@@ -1,0 +1,6 @@
+message: Hello from PROD
+database:
+  url: jdbc:postgresql://prod-db:5432/orders
+logging:
+  level:
+    root: ERROR
