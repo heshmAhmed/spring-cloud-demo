@@ -11,5 +11,7 @@
     <modules>
         <module>config-server</module>
         <module>order-server</module>
+        <module>eureka-server</module>
+        <module>pament-service</module>
     </modules>
 </project>
