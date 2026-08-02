@@ -1,7 +1,0 @@
-server:
-  port: 8081
-
-message: Hello from Git Config Server
-
-database:
-  url: jdbc:postgresql://localhost:5432/orders
