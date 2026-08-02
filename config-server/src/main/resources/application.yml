@@ -8,5 +8,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/heshmAhmed/spring-cloud-demo/config-server/config-repo
+          uri: https://github.com/heshmAhmed/spring-cloud-demo.git
+          search-paths: config-repo
           default-label: main
