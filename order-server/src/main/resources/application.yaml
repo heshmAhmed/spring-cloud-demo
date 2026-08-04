@@ -30,7 +30,7 @@ resilience4j:
   timelimiter:
       instances:
         payment-service:
-          timeoutDuration: 2s
+          timeoutDuration: 1s
 
 management:
   endpoints:
