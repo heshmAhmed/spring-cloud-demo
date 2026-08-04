@@ -16,7 +16,8 @@ public class PaymentService {
 	}
 
 	@GetMapping("/payments")
-	public String payment(@Value("${server.port}") String port) {
+	public String payment(@Value("${server.port}") String port)  throws InterruptedException {
+		Thread.sleep(10000);
 		return "Payment Service from port " + port;
 	}
 }

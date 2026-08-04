@@ -13,5 +13,6 @@
         <module>order-server</module>
         <module>eureka-server</module>
         <module>pament-service</module>
+        <module>gatway</module>
     </modules>
 </project>
