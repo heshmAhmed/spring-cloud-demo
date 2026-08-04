@@ -14,6 +14,8 @@ spring:
           uri: lb://PAYMENT-SERVICE
           predicates:
             - Path=/lol/**
+          filters:
+            - StripPrefix=1
 
 eureka:
   client:
